@@ -5,3 +5,4 @@ echo "[agent]"|sudo tee --append /etc/puppet/puppet.conf
 echo "server = master.local"|sudo tee --append /etc/puppet/puppet.conf
 sudo puppet agent --enable
 sudo service puppet restart
+end
